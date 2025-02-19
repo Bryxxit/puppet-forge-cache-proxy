@@ -8,6 +8,8 @@ go build
 
 # running
 
+    ./puppet-forge-cache-proxy -port 8081 -cacheDir ./cache
+
     CUSTOM_FORGE_URL="http://localhost:8080"
     # Module name to install
     MODULE_NAME="puppetlabs-stdlib"
