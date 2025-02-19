@@ -1,6 +1,6 @@
 # Puppet forge cache proxy
 
-This is a small go gin application that servers a proxy for the forgeapi. It will download modules locally to a directory.
+This is a small go gin application that servers a proxy for the forgeapi. It will download modules locally to a directory. And if the module is requested for download again it will server the local package from cache
 
 
 # building
